@@ -7,7 +7,7 @@ trigger:
 - main
 
 variables:
-    myVar: $[ Agent.OSArchitecture ]
+    myVar: x64
 steps:
 - script: echo Hello, world!
           echo $(myVar)
